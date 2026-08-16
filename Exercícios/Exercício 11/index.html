@@ -7,13 +7,21 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Links externos</h1>
-    <p>Repositório <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">público do Gustavo Guanabara</a> no gitHub ou o <a href="https://youtube.com/cursoemvideo">canal do Youtube</a> dele.</p>
-    <h1>Links internos</h1>
-    <p>Página <a href="teste.html" target="_self" rel="Next">alternativa</a></p>
-    <p><a href="Easter egg/ee.html">easter egg</a></p>
-    <p><a href="/Resumos/index.html">Resumos</a></p>
-    <h2>Links para dowload</h2>
-    <p><a href="10 - Ligações em toda parte.pdf" download="">PDF aula 10</a></p>
+    <h1>imgans dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem grande">
+
+        <small>Usado: &lt;picture&gt; e &lt;source&gt;</small>
+
+        <h1>Áudio</h1>
+        <audio controls>
+            <source src="midia/Bach Cello Suite No. 1, G Major, Prelude - Cooper Cannell.mp3" type="audio/mpeg">
+            <p>Não foi possivel reproduzir o audio. <a href="midia/Bach Cello Suite No. 1, G Major, Prelude - Cooper Cannell.mp3" dowload>Clique aqui para baixar o arquivo .mp3</a></p>
+        </audio>
+        
+    </picture>
+    <small>Usado: &lt;audio&gt;, </small>
 </body>
 </html>
