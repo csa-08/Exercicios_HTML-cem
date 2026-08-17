@@ -9,22 +9,22 @@ p{
     text-align: justify;
 }
 body{
-    background-image: linear-gradient(to right, #E0D9A2, #BEA758);
+    background-image: linear-gradient(to right, #AEF1B9, #A8CC8F);
 }
 main{
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px #6a5d31b0;
+    box-shadow: 5px 5px 15px #6d967493;
     width: 600px;
     padding: 10px;
     margin: auto;
 }
 h1{
-    color: #BEA758;
+    color: #EA7966;
     text-align: center;
-    text-shadow: 1px 1px 0px #84733eb2    ;
+    text-shadow: 1px 1px 0px #84443967    ;
 }
 
 h2{
-    color:#675CAD;
-}
+    color:#5A9DA6;
+}   
