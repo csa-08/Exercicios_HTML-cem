@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* id = #
+class = . */
+
+body{
+    background-color: rgb(110, 249, 168);
+    font-family: "comic sans ms", "comic sans", cursive, sans-serif;
+}
+h1{
+    color: rgb(23, 126, 7); 
+}
+h2{
+    color: rgb(14, 161, 24);
+}
+
+#principal{
+    text-align: center;
+    background-color: rgb(23, 126, 7);
+    color: rgb(12, 67, 3);
+}
